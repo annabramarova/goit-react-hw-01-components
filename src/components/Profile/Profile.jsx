@@ -10,12 +10,12 @@ export const Profile = ({avatar, username, location, tag, stats}) => (
                 alt="User avatar"
                 className="css.avatar"
             />
-            <p className="name">Petra Marica</p>
-            <p className="tag">@pmarica</p>
-            <p className="location">Salvador, Brasil</p>
+            <p className="css.name">{username}</p>
+            <p className="css.tag">{tag}</p>
+            <p className="css.location">{location}</p>
         </div>
 
-        <ul class="stats">
+        <ul className="css.stats">
             <li>
                 <span className="css.label">Followers</span>
                 <span className="css.quantity">1000</span>
